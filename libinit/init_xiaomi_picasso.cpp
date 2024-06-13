@@ -9,21 +9,21 @@
 
 #include "vendor_init.h"
 
-static const variant_info_t monet_info = {
+static const variant_info_t picasso_info = {
     .hwc_value = "",
     .sku_value = "",
 
-    .brand = "Xiaomi",
-    .device = "monet",
-    .marketname = "Mi 10 Lite 5G",
-    .model = "M2002J9G",
-    .build_fingerprint = "Xiaomi/monet_eea/monet:12/SKQ1.211006.001/V13.0.2.0.SJIEUXM:user/release-keys",
+    .brand = "Redmi",
+    .device = "picasso",
+    .marketname = "Redmi K30 5G",
+    .model = "M1912G7BC",
+    .build_fingerprint = "Redmi/picasso/picasso:12/SKQ1.211006.001/V13.0.5.0.SGICNXM:user/release-keys",
 
     .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
-    monet_info,
+    picasso_info,
 };
 
 void vendor_load_properties() {
