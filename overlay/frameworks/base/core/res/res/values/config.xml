@@ -449,13 +449,11 @@
     <bool name="config_physicalDisplayCutout">true</bool>
 
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -120 0
-        C -120 0 -80 5 -55 35
-        C -45 50 -25 65 0 65
-        C 25 65 45 50 55 35
-        C 80 5 120 0 120 0
-        L -120 0
-        Z
+         M -200,28
+         A 1,1,0,0,0,-200,92
+         L -82,92
+         A 1,1,0,0,0,-82,28
+         Z@right
     </string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
@@ -465,13 +463,7 @@
          config_mainBuiltInDisplayCutout
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M 0,0
-        H -45
-        V 69
-        H 45
-        V 0
-        H 0
-        Z
+         M 0,0 H -236 V 95 H 0 V 0 Z@right
     </string>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
