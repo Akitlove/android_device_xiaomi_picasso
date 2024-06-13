@@ -471,13 +471,17 @@
      -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
-    <!-- Screen off FOD -->
-    <bool name="config_supportScreenOffFod">true</bool>
-    <bool name="config_supportScreenOffUdfps">true</bool>
+     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false">
+         <item>@array/config_sfps_sensor_props_0</item>
+     </array>
 
-    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
-    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
-
-    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
-    <integer name="config_udfps_illumination_transition_ms">0</integer>
+     <array name="config_sfps_sensor_props_0" translatable="false">
+         <item></item> <!--item>displayId</item-->
+         <item>1080</item> <!--item>sensorLocationX</item-->
+         <item>1000</item> <!--item>sensorLocationY</item-->
+         <item>200</item> <!--item>sensorRadius</item-->
+     </array>
 </resources>
