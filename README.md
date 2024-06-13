@@ -1,7 +1,7 @@
 Device configuration for Xiaomi Mi 10 Lite
 =========================================
 
-The Xiaomi Mi 10 Lite (codenamed _"Monet"_) is a mid range smartphone from Xiaomi.
+The Xiaomi Mi 10 Lite (codenamed _"picasso"_) is a mid range smartphone from Xiaomi.
 
 It was announced in March 2020. Release date was June 2020.
 

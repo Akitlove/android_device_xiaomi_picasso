@@ -11,23 +11,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from monet device
-$(call inherit-product, device/xiaomi/monet/device.mk)
+# Inherit from picasso device
+$(call inherit-product, device/xiaomi/picasso/device.mk)
 
-PRODUCT_NAME := lineage_monet
-PRODUCT_DEVICE := monet
+PRODUCT_NAME := lineage_picasso
+PRODUCT_DEVICE := picasso
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M2002J9G
+PRODUCT_MODEL := M1912G7BC
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="monet-user 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys" \
-    BuildFingerprint=Xiaomi/monet_eea/monet:12/SKQ1.211006.001/V13.0.2.0.SJIEUXM:user/release-keys
+    BuildDesc="picasso-user 12 SKQ1.211006.001 V13.0.5.0.SGICNXM release-keys" \
+    BuildFingerprint=Redmi/picasso/picasso:12/SKQ1.211006.001/V13.0.5.0.SGICNXM:user/release-keys
+
 
 # Inherit from dolby
 $(call inherit-product-if-exists, vendor/sony/dolby/sony-dolby-vendor.mk)
 
 # Inherit from Leica camera
-$(call inherit-product-if-exists, vendor/xiaomi/monet-leicacamera/leica-camera-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/picasso-leicacamera/leica-camera-vendor.mk)
