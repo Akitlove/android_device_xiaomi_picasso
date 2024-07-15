@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_picasso.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_picasso-user \
-    lineage_picasso-userdebug \
-    lineage_picasso-eng
+    lineage_picasso-ap1a-user \
+    lineage_picasso-ap1a-userdebug \
+    lineage_picasso-ap1a-eng
