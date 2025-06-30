@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     libmegface
 
 # Fingerprint
-TARGET_HAS_UDFPS := true
+TARGET_HAS_UDFPS := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
