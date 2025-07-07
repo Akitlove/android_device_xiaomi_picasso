@@ -17,8 +17,8 @@ $(call inherit-product, device/xiaomi/picasso/device.mk)
 PRODUCT_NAME := lineage_picasso
 PRODUCT_DEVICE := picasso
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M1912G7BC
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi K30 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

@@ -16,7 +16,7 @@ static const variant_info_t picasso_info = {
     .brand = "Redmi",
     .device = "picasso",
     .marketname = "Redmi K30 5G",
-    .model = "M1912G7BC",
+    .model = "Redmi K30 5G",
     .build_fingerprint = "Redmi/picasso/picasso:12/SKQ1.211006.001/V13.0.5.0.SGICNXM:user/release-keys",
 
     .nfc = true,

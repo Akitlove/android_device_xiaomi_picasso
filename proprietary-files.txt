@@ -454,6 +454,9 @@ vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/watermark_font_2300_3199.dat
 
+# Charger (Mi Turbo Charge)
+vendor/bin/batterysecret
+
 # Display Calibration
 vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
