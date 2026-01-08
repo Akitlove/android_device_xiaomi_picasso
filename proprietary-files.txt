@@ -354,6 +354,7 @@ vendor/lib64/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin
 
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
+vendor/etc/init/init.batterysecret.rc
 
 # Display Calibration
 vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
