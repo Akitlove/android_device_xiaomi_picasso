@@ -23,7 +23,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_picasso
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Inherit from the proprietary version
 include vendor/xiaomi/picasso/BoardConfigVendor.mk
