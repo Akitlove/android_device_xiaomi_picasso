@@ -23,15 +23,13 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('LEGACY_MIFARE_READER=1'),
     'vendor/lib/libaudioroute_ext.so': blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
-    'vendor/lib/hw/audio.primary.picasso.so': blob_fixup()
-        .binary_regex_replace(
-            b'/vendor/lib/liba2dpoffload.so',
-            b'liba2dpoffload_picasso.so\x00\x00\x00\x00',
-        )
+    'vendor/lib/hw/audio.primary.lito.so': blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib/liba2dpoffload_picasso.so': blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib/hw/sound_trigger.primary.lito.so': blob_fixup()
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
+    'vendor/lib64/hw/audio.primary.lito.so': blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib64/hw/sound_trigger.primary.lito.so': blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
